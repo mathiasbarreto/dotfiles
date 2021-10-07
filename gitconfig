@@ -11,7 +11,7 @@
 
 [core]
   pager = less -FRSX
-	editor = '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -n -w
+	editor = subl -n -w  >/dev/null 2>&1
 
 [alias]
   co = checkout
@@ -50,5 +50,5 @@
 [pull]
   rebase = false
 [user]
-	email = mathiasluz.pro@gmail.com
-	name = mathias barreto
+	email = Mathias.barreto@cashway.io
+	name = Mathias Barreto
